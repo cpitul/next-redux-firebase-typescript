@@ -1,0 +1,34 @@
+{
+	"hosting": {
+		"public": "public",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"function": "nextServer"
+			}
+		]
+	},
+	"firestore": {
+		"rules": "firestore.rules",
+		"indexes": "firestore.indexes.json"
+	},
+	"functions": {
+		"source": ".",
+		"runtime": "nodejs14",
+		"ignore": [
+			"**/.vscode/**",
+			"**/.next/cache/**",
+			"**/node_modules/**",
+			"**/project-info/**",
+			"**/public/**",
+			"**/src/**",
+			".firebase/**",
+			".firebaserc",
+			"firebase.json"
+		]
+	},
+	"storage": {
+		"rules": "storage.rules"
+	}
+}

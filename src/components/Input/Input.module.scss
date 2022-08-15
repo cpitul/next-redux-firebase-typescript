@@ -1,0 +1,27 @@
+@use '@styles/colors.scss' as *;
+@use '@styles/variables.scss' as *;
+
+.input {
+	display: block;
+	outline: none;
+	border: 1px solid $input-border;
+	color: $input-color;
+	background: $input-background;
+	border-radius: $radius;
+	padding: 0.45em 0.75em;
+	font-size: 0.9rem;
+
+	& ~ label {
+		margin-top: 1rem;
+	}
+}
+
+.input:focus {
+	border-color: $input-border-focus;
+}
+
+.label {
+	display: inline-block;
+	color: $label-color;
+	font-size: 0.8rem;
+}

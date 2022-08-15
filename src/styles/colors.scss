@@ -1,0 +1,28 @@
+$dark-grey: #333;
+$light-grey: #eee;
+$white: #fff;
+$red: #df0000;
+$grey: lighten($dark-grey, 30);
+$err-red: rgba(255, 0, 0, 0.2);
+$purple: rgb(179, 0, 179);
+
+$card-info-background: rgba(#fff, 0.8);
+$card-info-border-color: rgb(219, 219, 219);
+$background-color: rgba(250, 250, 250, 1);
+
+$pill-background: rgb(240, 240, 240);
+
+// INPUTS
+$input-border: rgb(180, 180, 180);
+$input-color: #333;
+$input-background: rgb(240, 240, 240);
+$input-border-focus: rgb(134, 134, 134);
+
+// LINKS
+$link-color: #333;
+
+// LABELS
+$label-color: #333;
+
+// MODAL
+$modal-background-color: rgba(0, 0, 0, 0.1);

@@ -1,0 +1,22 @@
+@use '@styles/variables.scss' as *;
+
+@media screen and (max-width: $container-xl) {
+	.container {
+		max-width: 1080px;
+	}
+}
+
+@media screen and (max-width: $container-l) {
+	.container {
+		max-width: 740px;
+	}
+}
+
+@media screen and (max-width: $container-m) {
+	.container {
+		max-width: 470px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}

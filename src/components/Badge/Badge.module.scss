@@ -1,0 +1,22 @@
+@use '@styles/colors.scss' as *;
+
+.badge {
+	$badge-size: 1rem;
+
+	display: grid;
+	place-items: center;
+	position: absolute;
+	top: -$badge-size / 4;
+	left: 80%;
+	width: $badge-size;
+	height: $badge-size;
+	border-radius: 50%;
+	background: $red;
+
+	& > p {
+		font-size: 0.5rem;
+		font-weight: 500;
+		color: $white;
+		text-align: center;
+	}
+}
